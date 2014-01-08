@@ -14,6 +14,8 @@ weight = input()
 
 print("So, you're %r old, %r tall and %r heavy." % (age, height, weight))
 
+# File "ex11.py", line 20, in <module> num = int(raw_input()) meError: name 'raw_input' is not defined
+
 print("Enter a integer: ", end=" ")
 num = int(raw_input())
 print("The number you've input is: %d" % num)
